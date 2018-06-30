@@ -1,0 +1,78 @@
+@import url('font.css');
+body {
+	background: gray !important;
+	font-family: "digit7";
+	}
+	
+.center {
+  text-align: center;
+}
+	#calculator {
+  background-color: darkgrey;
+  background: #805500;
+	padding: 40px;
+	width: 300px;
+  height : 100%;
+	font-family: san-serif;
+	border-radius: 40px;
+  box-shadow: 0px 15px 20px rgba(0,0,0, 3);
+  margin-top: 20px; 
+  color: white;
+
+   
+}
+
+
+#thumb   {
+	color: black;
+	text-align: right;
+	font-family: "digit7";
+	font-size: 25px;
+	font-color: black;
+	background: #c3c2ab;
+	padding: 20px 20px  40px  40px;   
+	width: 105%;
+	margin: 0px 0 0px 0;
+	border: 0;
+	outline: 0;
+	border-radius: 10px;
+	box-shadow: 0px  -7px 0 #333;
+	text-shadow: 0 1px 0 #333;
+
+}
+.button {  
+   font-size: 20px;
+    border-radius: 22px;
+    border: none !important;
+    margin: 10px 4px;
+    height: 50px;
+    width:  50px;
+    box-shadow: 0px 8px 0px 0px #2a535f;
+}
+.button1 {  
+   font-size: 20px;
+    border-radius: 22px;
+    border: none !important;
+    margin: 10px -4px;
+    height: 50px;
+    width:  50px;
+    box-shadow: 0px 8px 0px 0px green;
+    }
+ .button2 {  
+   font-size: 20px;
+    border-radius: 22px;
+    border: none !important;
+    margin: 10px 4px;
+    height: 50px;
+    width:  50px;
+    box-shadow: 0px 8px 0px 0px #732a28;
+}
+.button3 {  
+   font-size: 20px;
+    border-radius: 22px;
+    border: none !important;
+    margin: 10px 4px;
+    height: 50px;
+    width:  50px;
+    box-shadow: 0px 8px 0px 0px #775729;
+    }

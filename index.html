@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+    <html>
+    <head>
+      <title>JS CALCULATOR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' type='text/css' href='css/style.css'>
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">   
+<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src='js/main.js'></script>
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+</head>
+<body>
+<div class="container" id="calculator">
+<h5 style= "text-align:center" style="font-family:sans-serif;"><b>BETHEL CHIMAROKE CALSIO</h5></b>
+<table>
+		<input type="text"id="thumb" value="" disabled />
+		<tbody class="">
+      <tr>
+      <td><input type="button" id="pWr" value="AC" onclick="powerOn()" class="btn-danger btn-lg button2"/></td>
+        <td><input type="button" id="btnBackspace" class="button3 btn-lg btn-warning" value="CE"  onclick="cleaR()" /></td>
+        <td><input type="button" id="btnDivide"  class="button btn-lg btn-info" value=" &divide" onclick="btnDiv()" /></td>
+        <td><input type="button" id="btnMultiply" value="&times" onclick="btnMult()"   class="button btn-lg btn-info" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" id="btnSeven" value="7" class="button btn-lg btn-info" onclick="numerO(7)" /></td>
+        <td><input type="button" id="btnEight" onclick="numerO(8)"  value="8" class="button btn-lg btn-info" /></td>
+        <td><input type="button" id="btnNine" value="9" onclick="numerO(9)"  class="button btn-lg btn-info" /></td>
+        <td><input type="button" id="btnSubtract" value="-" onclick="btnSub()"  class="button btn-lg btn-info" /></td> 
+        </tr>
+      <tr>
+<td><input type="button" id="btnFour" value="4" onclick="numerO(4)"  class="button btn-lg btn-info" /></td>
+        <td><input type="button" id="btnFive" value="5" onclick="numerO(5)"  class="button btn-lg btn-info" /></td>
+        <td><input type="button" id="btnSix" value="6" onclick="numerO(6)"  class="button btn-lg btn-info" /></td>
+        <td><input type="button" id="btnAdd" value="+" onclick="btnPlus()" class="button btn-lg btn-info" /></td>
+          
+        </tr>
+      <tr>
+<td><input type="button" id="btnOne" value="1" onclick="numerO(1)" class="button btn-lg btn-info" /></td>
+        <td><input type="button" id="button btnTwo" value="2" onclick="numerO(2)" class="button btn-lg btn-info" /></td>
+        <td><input type="button" id="btnThree" value="3" onclick="numerO(3)"  class="button btn-lg btn-info" /></td>
+        <td><input type="button" id="btnDecimal" onclick="btnDec()" value="." class="button btn-lg btn-info" /></td>
+       <tr>
+        <td><input type="button" id="btnZero" value="0" onclick="numerO(0)" class="button btn-lg btn-info" /></td>
+         
+ <td><input type="button" id="btnEquals" value="=" onclick="calC()" class="button1 btn-lg btn-block btn-success" /><td>
+ <td><input type="button" id="shutdown" onclick="powerOff()"  class="button1 btn-lg btn-block btn-success" value="OFF"/><td>
+ </tr>
+ 
+  </table>
+		<div class="clear"></div>
+    <footer>
+	</footer>
+	</body>
+    </html>
